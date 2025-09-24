@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel de Marcas - RPG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Painel de Marcas</h1>
+  <div class="cards-container">
+
+    <!-- Daisuke -->
+    <div class="card" id="daisuke">
+      <div class="image-container">
+        <div class="xp-bar"></div>
+        <img src="daisuke_base.png" class="mask">
+      </div>
+      <h2>Daisuke</h2>
+      <input type="number" class="xp-input" placeholder="Digite XP">
+      <button onclick="addXP('daisuke')">Aplicar</button>
+      <p>XP: <span class="xp-value">0</span></p>
+      <p>Nível: <span class="level-value">0</span></p>
+    </div>
+
+    <!-- Jerônimo -->
+    <div class="card" id="jeronimo">
+      <div class="image-container">
+        <div class="xp-bar"></div>
+        <img src="jeronimo_base.png" class="mask">
+      </div>
+      <h2>Jerônimo</h2>
+      <input type="number" class="xp-input" placeholder="Digite XP">
+      <button onclick="addXP('jeronimo')">Aplicar</button>
+      <p>XP: <span class="xp-value">0</span></p>
+      <p>Nível: <span class="level-value">0</span></p>
+    </div>
+
+    <!-- Haruka -->
+    <div class="card" id="haruka">
+      <div class="image-container">
+        <div class="xp-bar"></div>
+        <img src="haruka_base.png" class="mask">
+      </div>
+      <h2>Haruka</h2>
+      <input type="number" class="xp-input" placeholder="Digite XP">
+      <button onclick="addXP('haruka')">Aplicar</button>
+      <p>XP: <span class="xp-value">0</span></p>
+      <p>Nível: <span class="level-value">0</span></p>
+    </div>
+
+    <!-- Fellippo -->
+    <div class="card" id="fellippo">
+      <div class="image-container">
+        <div class="xp-bar"></div>
+        <img src="fellippo_base.png" class="mask">
+      </div>
+      <h2>Fellippo</h2>
+      <input type="number" class="xp-input" placeholder="Digite XP">
+      <button onclick="addXP('fellippo')">Aplicar</button>
+      <p>XP: <span class="xp-value">0</span></p>
+      <p>Nível: <span class="level-value">0</span></p>
+    </div>
+
+    <!-- Serafim -->
+    <div class="card" id="serafim">
+      <div class="image-container">
+        <div class="xp-bar"></div>
+        <img src="serafim_base.png" class="mask">
+      </div>
+      <h2>Serafim</h2>
+      <input type="number" class="xp-input" placeholder="Digite XP">
+      <button onclick="addXP('serafim')">Aplicar</button>
+      <p>XP: <span class="xp-value">0</span></p>
+      <p>Nível: <span class="level-value">0</span></p>
+    </div>
+
+  </div>
+
+  <!-- Supabase SDK -->
+  <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+  <!-- Seu script -->
+  <script src="script.js"></script>
+</body>
+</html>
